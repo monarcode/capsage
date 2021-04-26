@@ -1,0 +1,21 @@
+:root {
+    // colors
+    --clr_orange: #ff6600;
+    --clr_blue: #003399;
+    --clr_light-blue: #2D9CDB;
+
+    --clr_grey-1: #333333;
+    --clr_grey-2: #4F4F4F;
+    --clr_grey-3: #828282;
+    --clr_grey-4: #BDBDBD;
+    --clr_grey-5: #E0E0E0;
+    --clr_grey-6: #F2F2F2;
+}
+
+$spacer: 1rem;
+
+// breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
