@@ -27,6 +27,11 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
+
+        @media (max-width: $sm){
+            grid-template-columns: unset;
+            grid-template-rows: repeat(2, 1fr);
+        }
     }
 
     .brief__right, .brief__left {
