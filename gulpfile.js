@@ -40,7 +40,7 @@ function watchTask() {
     });
 //    watch([files.scssPath], parallel(scssTask))
     watch(files.scssPath, scssTask);
-    watch('./*.html').on('change', browserSync.reload);
+    watch('./**/*.html').on('change', browserSync.reload);
     watch('./js/**/*.js').on('change', browserSync.reload);
     watch(files.jsPath).on('change', browserSync.reload);
 }
